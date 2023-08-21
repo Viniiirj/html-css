@@ -19,6 +19,7 @@
 html, body {
   min-height: 100vh;
 background-color: darkgray;
+font-family: var(--fonte1);
 }
 
 header {
@@ -30,6 +31,8 @@ header {
 header > h1 {
   padding-top: 50px;
   font-variant: small-caps;
+  font-family: var(--fonte2);
+  font-size: 7vw;
 }
 
 header > p {
@@ -51,6 +54,8 @@ section{
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 30px;
+  font-family: var(--fonte3);
+  font-size: 4vw;
 }
 
 section.normal{
@@ -65,7 +70,8 @@ section.imagem{
 
 section.imagem > p {
   background-color: rgba(0, 0, 0, 0.253);
-  width: 400px;
+  padding: 5px;
+  display: inline-block;
 }
 
 footer{
